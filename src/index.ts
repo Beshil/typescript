@@ -4,3 +4,5 @@ function func(some: any): string {
 }
 
 func('some');
+
+document.body.innerHTML = '<div style="background: red"> White in red</div>';
