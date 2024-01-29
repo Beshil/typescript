@@ -16,7 +16,6 @@ export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
           },
         },
       },
-      'css-loader',
       'sass-loader',
     ],
   };
