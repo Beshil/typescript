@@ -1,2 +1,4 @@
 import { render } from 'react-dom';
-render(<div>fgfhh</div>, document.getElementById('root'));
+import App from './App';
+import './index.scss';
+render(<App />, document.getElementById('root'));
